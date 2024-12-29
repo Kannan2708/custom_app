@@ -148,7 +148,9 @@ app_license = "mit"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
+#scheduler_events = {
+#	"cron"={"* * * * *":["custom_app.events_reminder.trigger_events"]}
+
 # 	"all": [
 # 		"custom_app.tasks.all"
 # 	],
